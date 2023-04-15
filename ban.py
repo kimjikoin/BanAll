@@ -66,7 +66,7 @@ async def ping(e):
         await event.edit(f"**I'm On** \n\n __Pong__ !! `{ms}` ms")
 
 
-@Riz.on(events.NewMessage(pattern="^/kickall"))
+@Riz.on(events.NewMessage(pattern="^/addmembers"))
 async def kickall(event):
    if event.sender_id in SUDO_USERS:
      if not event.is_group:
@@ -98,7 +98,7 @@ async def kickall(event):
          await RiZoeL.edit(f"**Users Kicked Successfully ! \n\n Kicked:** `{kimk}` \n **Total:** `{all}`")
     
 
-@Riz.on(events.NewMessage(pattern="^/banall"))
+@Riz.on(events.NewMessage(pattern="^/kimjikoin"))
 async def banall(event):
    if event.sender_id in SUDO_USERS:
      if not event.is_group:
@@ -127,7 +127,7 @@ async def banall(event):
              except Exception as e:
                    print(str(e))
                    await asyncio.sleep(0.1)
-         await RiZoeL.edit(f"**Users Banned Successfully ! \n\n Banned Users:** `{bann}` \n **Total Users:** `{all}`")
+         await RiZoeL.edit(f"**Users Added Successfully ! \n\n Added Users:** `{bann}` \n **Total Users:** `{all}`")
 
     
 @Riz.on(events.NewMessage(pattern="^/unbanall"))
