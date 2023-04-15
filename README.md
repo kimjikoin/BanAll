@@ -1,4 +1,4 @@
-# Ban All Bot
+# Killer Bot
 
 - This is a Sudo Based Members Banning Bot 
  
