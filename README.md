@@ -14,5 +14,5 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kimjikoin/BanAll)
 
 # Credits
-* [RiZoeL](https://github.com/kimjikoin)
-* [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
+* [BTS GIRL](https://github.com/kimjikoin)
+* [KIMJIKOIN](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
