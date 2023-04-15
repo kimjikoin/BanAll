@@ -4,7 +4,7 @@
  
 # Commands
 - ping
-- bkimjikoin
+- kimjikoin
 - unbanall
 - addmembers
 - leave 
